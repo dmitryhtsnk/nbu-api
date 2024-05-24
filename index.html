@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Курс валют</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<input type="text" id="search-input" placeholder="Пошук валют">
+	<button id="refresh-button">Оновити курс валют</button>
+	<div id="loading-icon" style="display: none;">
+		<div class="spinner"></div>
+		<p>Завантаження...</p>
+	</div>
+	<div id="success-message" style="display: none;">
+		<div class="checkmark"></div>
+		<p>Успішна загрузка</p>
+	</div>
+	<div id="currency-data">
+		<!-- Дані про валюту будуть відображатися тут -->
+	</div>
+	<div id="update-message" style="display: none;">Дані оновлено</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
